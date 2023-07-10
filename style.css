@@ -6,6 +6,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+.canvas{
+    padding: 0 200px;
+}
+
 .primary-button{
     border-radius: 8px;
     background: #E55473;
@@ -22,7 +26,6 @@
     background-color: #FCEEF1;
     height: 95vh;
     display: flex;
-    padding: 0 200px;
     justify-content: space-between;
 }
 
@@ -48,5 +51,113 @@
 .banner>img{
     padding-top: 50px;
 }
+
+/* Main featured section style starts here */
+
+.featured{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.featured-info{
+    max-width:500px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-info>h1{
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.featured-info>p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 20px;
+}
+
+.featured-products{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.featured-products .featured-img1{
+width: 80%;
+margin-top: 47px;
+}
+.featured-products .featured-img2{
+width: 100%;
+margin-top: 58px;
+}
+.featured-products .featured-img3{
+width: 80%;
+margin-top: 16px;
+}
+
+.img-bag{
+    text-align: center;
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 50px 35px 0 35px;
+    height: 400px;
+    width: 320px;
+}
+
+.featured-products div{
+    margin: 0 5px;
+}
+
+.featured-products h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 20px;
+    text-decoration-line: underline;
+}
+.featured-products h2 a{
+    color: #272727;
+}
+
+.featured-bag-color1{
+
+    background-color: #F2DEE7;
+}
+.featured-bag-color2{
+
+    background-color: #D9EFF1;
+}
+.featured-bag-color3{
+
+    background-color: #E3EBDB;
+}
+
+.support-info{
+    margin: 100px 150px;
+    background-color: #F4F4F4;
+    height: 230px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.support-info-box h3{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+
+
 
 
