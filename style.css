@@ -141,8 +141,8 @@ margin-top: 16px;
 .support-info{
     margin: 100px 150px;
     background-color: #F4F4F4;
-    height: 230px;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 8px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
