@@ -29,14 +29,14 @@
 
 .banner{
     background-color: #FCEEF1;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
 
 .banner-info{
     max-width: 50%;
-    padding-top: 150px;
+    padding-top: 12%;
 }
 
 .banner-heading{
