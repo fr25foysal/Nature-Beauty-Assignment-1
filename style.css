@@ -107,8 +107,8 @@ margin-top: 16px;
 .img-bag{
     text-align: center;
     position: relative;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
     padding: 50px 35px 0 35px;
     height: 400px;
     width: 320px;
@@ -212,7 +212,7 @@ margin-top: 16px;
     border-radius: 6px;
     padding: 90px 0;
     width: 1200px;
-    margin: 50px auto;
+    margin: 100px auto;
 
 }
 .newsletter-box-info{
@@ -285,4 +285,50 @@ padding: 20px 0;
 
 }
 
+
+/* Improvised Section style starts here */
+
+.rose-info{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.rose-info-text{
+
+    padding: 0 20px;
+}
+.rose-info-img{
+    max-width: 50%;
+}
+
+.rose-info img{
+    width: 100%;
+}
+
+.rose-info h1{
+    color: #272727;
+    font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.rose-info p{
+    color: #494949;
+    font-size: 16.5px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.rose-info-text>button{
+    display: block;
+    margin: 0 auto;
+}
+
+.blog-title{
+    text-align: center;
+    padding: 30px 0;
+}
 
