@@ -208,11 +208,15 @@ margin-top: 16px;
     background-image: url('assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     text-align: center;
-    padding: 100px 0;
+    background-size: cover;
+    border-radius: 6px;
+    padding: 90px 0;
+    width: 1200px;
+    margin: 50px auto;
 
 }
 .newsletter-box-info{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .newsletter-box-info h2{
     color: #272727;
@@ -224,11 +228,12 @@ margin-top: 16px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 17px;
     font-weight: 400;
+    padding:10px 0;
     line-height: 30px;
 }
 
 .newsletter-input >input{
-    border-radius: 8px;
+    border-radius: 6px;
     background: #FFF;
     border: none;
     padding: 18px 400px 18px 20px;
@@ -236,5 +241,42 @@ margin-top: 16px;
 
 }
 
+footer{
+    background-color: #000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-footer{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.main-footer >h1{
+    color: #fff;
+font-size: 42px;
+font-weight: 800;
+}
+
+.main-footer >p{
+    color: #d6d6d6;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+padding: 20px 0;
+}
+
+.main-footer >span{
+    color: #ffffff66;
+    font-size: 13px;;
+    font-weight: 400;
+}
+
+.main-footer > span> a{
+    text-decoration: none;
+    color: #ffffff66;
+
+}
 
 
