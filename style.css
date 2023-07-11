@@ -241,6 +241,12 @@ margin-top: 16px;
 
 }
 
+.newsletter-input >input:focus{
+    outline: none;
+}
+
+
+
 footer{
     background-color: #000;
     text-align: center;
