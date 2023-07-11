@@ -29,14 +29,13 @@
 
 .banner{
     background-color: #FCEEF1;
-    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
 
 .banner-info{
-    max-width: 50%;
-    padding-top: 12%;
+    max-width: 70%;
+    padding-top: 10%;
 }
 
 .banner-heading{
@@ -55,6 +54,8 @@
 
 .banner>img{
     padding-top: 50px;
+    max-width: 40%;
+    
 }
 
 /* Main featured section style starts here */
